@@ -1,0 +1,33 @@
+<p>
+	Start editing to see some magic happen :)
+</p>
+<table class="table table-bordered table-hover" style="width:100%">
+	<tr>
+		<th>Before</th>
+		<th>After</th>
+	</tr>
+	<tr>
+		<td>
+			{{ "20201111" }}
+		</td>
+		<td>
+			{{ "20201111" | ConvertToPersianDate }}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			{{ "13990821" }}
+		</td>
+		<td>
+			{{ "13990821" | FormatToPersianDate }}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			{{ "120000" }}
+		</td>
+		<td>
+			{{ "120000" | numberToPersian }}
+		</td>
+	</tr>
+</table>
